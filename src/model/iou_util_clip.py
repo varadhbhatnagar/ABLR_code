@@ -52,7 +52,7 @@ def calculate_mean_IOU(log,file_path,clip_num):
     mean_iou = np.mean(iou_list)
     logging.info("************************************")
     logging.info("mean_iou = {:f}".format(mean_iou))
-    print 'mean_iou = {:}'.format(mean_iou)
+    print ('mean_iou = {:}'.format(mean_iou))
     logging.info("************************************")
 
 
